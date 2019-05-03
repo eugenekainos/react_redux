@@ -52,7 +52,7 @@ function mapStateToProps(state) {
 }
 
 const mapDispatchToProps = {
-  loadCourses: courseActions.loadCoursesOnAppInit,
+  loadCourses: courseActions.loadCourses,
   loadAuthors: authorActions.loadAuthors
 };
 
